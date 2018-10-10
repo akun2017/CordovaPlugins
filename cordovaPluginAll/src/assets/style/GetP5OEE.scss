@@ -1,0 +1,57 @@
+@import 'reset';
+.GETP5OEE{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // position: absolute;
+    .weui-cells{
+        margin-bottom: 15px;
+    }
+}
+.weui-switch:checked{
+    border-color:  rgb(255, 226, 109) !important;
+    background-color: rgb(255, 226, 109) !important;//正常的颜色
+}
+.weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon, .weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon > i, .weui-tabbar__item.weui-bar__item_on .weui-tabbar__label{
+    color:rgb(247,29,116)!important;
+}
+.chartsFrame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: px2rem(30);
+    padding-bottom: px2rem(80);
+    width: 80%;
+    border: rgb(222, 218, 200) 15px solid;
+    background-color:rgb(213, 207, 177);
+    overflow: hidden;
+    #myChart{
+        margin: 0 auto;
+        width: px2rem(600);
+        height: px2rem(600);
+    }
+    .standard{
+        color: rgb(13, 10, 13);
+        font-size: px2rem(40);
+        text-align: center;
+        position: relative;
+        top: px2rem(-250);
+        right: px2rem(20);
+        i{
+            font-style: normal;
+            color: rgb(251, 32, 113);
+            font-size: px2rem(60);
+            margin: 0 13px;
+        }
+    }
+    .outWord{
+        color: rgb(105, 122, 106);
+        font-size: px2rem(50);
+        margin-left: 20px;
+        i{
+            color: black;
+            font-style: normal;
+        }
+    }
+}
